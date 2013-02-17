@@ -57,14 +57,58 @@
       current browser supports it. Chrome version 23 or above or Firefox version
       17 or above are recommended.</p>
     
+    <p>Click on the screenshots below to run the demos in your browser:</p>
+    
     <div id="imgWrapper">
       <div class="exampleItem">
         <a href="http://maxogden.github.com/voxel-engine/" target="_blank"><img src="demos/1.png"></a>
-        <cite><a href="https://github.com/maxogden/voxel-engine/blob/master/demo/demo.js" target="_blank">view source on github</a></cite>
+        <cite><a href="https://github.com/maxogden/voxel-hello-world/blob/master/index.js" target="_blank">view source on github</a></cite>
       </div>
       <div class="exampleItem">
         <a href="http://substack.net/projects/voxel-forest/" target="_blank"><img src="demos/2.png"></a>
         <cite><a href="https://github.com/substack/voxel-forest/blob/master/example/forest.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://shama.github.com/voxel-drone/" target="_blank"><img src="demos/8.png"></a>
+        <cite><a href="https://github.com/shama/voxel-drone/blob/master/example/world.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://shama.github.com/voxel-share/" target="_blank"><img src="demos/17.png"></a>
+        <cite><a href="https://github.com/shama/voxel-share/blob/master/example/world.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://shama.github.com/voxel-sky/" target="_blank"><img src="demos/10.png"></a>
+        <cite><a href="https://github.com/shama/voxel-sky/blob/master/example/world.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://maxogden.github.com/voxel-script-gun/" target="_blank"><img src="demos/11.png"></a>
+        <cite><a href="https://github.com/maxogden/voxel-script-gun/blob/master/demo.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://maxogden.github.com/voxel-painter/" target="_blank"><img src="demos/12.png"></a>
+        <cite><a href="https://github.com/maxogden/voxel-painter/blob/master/index.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://hughsk.github.com/voxel-pp/" target="_blank"><img src="demos/13.png"></a>
+        <cite><a href="https://github.com/hughsk/voxel-pp/blob/master/demo.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://didact.us/spatial-events/" target="_blank"><img src="demos/14.png"></a>
+        <cite><a href="https://github.com/chrisdickinson/spatial-events/blob/gh-pages/index.js#L75-L79" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://robbles.github.com/voxel-rescue/" target="_blank"><img src="demos/15.png"></a>
+        <cite><a href="https://github.com/robbles/voxel-rescue/blob/master/demo.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://troffmo5.github.com/voxel-oculus/" target="_blank"><img src="demos/16.png"></a>
+        <cite><a href="https://github.com/troffmo5/voxel-oculus/blob/master/demo.js" target="_blank">view source on github</a></cite>
+      </div>
+      <div class="exampleItem">
+        <a href="http://shama.github.com/voxel-snow" target="_blank"><img src="demos/18.png"></a>
+        <cite>
+          <a href="https://github.com/shama/voxel-snow/blob/master/example/world.js" target="_blank">view source on github</a>
+        </cite>
       </div>
       <div class="exampleItem">
         <a href="http://substack.net/projects/voxel-creature/" target="_blank"><img src="demos/3.png"></a>
@@ -86,16 +130,8 @@
         <cite><a href="https://github.com/maxogden/voxel-world-function/blob/master/demo.js" target="_blank">view source on github</a></cite>
       </div>
       <div class="exampleItem">
-        <a href="http://shama.github.com/voxel-drone/" target="_blank"><img src="demos/8.png"></a>
-        <cite><a href="https://github.com/shama/voxel-drone/blob/master/example/index.js" target="_blank">view source on github</a></cite>
-      </div>
-      <div class="exampleItem">
         <a href="http://substack.net/projects/voxel-portal/" target="_blank"><img src="demos/9.png"></a>
         <cite><a href="https://github.com/substack/voxel-portal/blob/master/example/world.js" target="_blank">view source on github</a></cite>
-      </div>
-      <div class="exampleItem">
-        <a href="http://shama.github.com/voxel-sky/" target="_blank"><img src="demos/10.png"></a>
-        <cite><a href="https://github.com/shama/voxel-sky/blob/master/example/world.js" target="_blank">view source on github</a></cite>
       </div>
     </div>
   </article>
@@ -107,7 +143,7 @@
       with <a href="http://npmjs.org">npm</a>, the package manager from <a href="http://nodejs.org">node.js</a>.
       Here are some modules that we have already started working on:</p>
 
-    <h3>The Essentials</h3>
+    <h3>The Core</h3>
       <ul class="essentials">
         <li class="itemTitle"><a href="https://github.com/maxogden/voxel-engine">voxel-engine</a>
          <li class="itemDesc">this is the main module for building voxel games - you can plug any voxel module into the engine.</li></li>
@@ -120,7 +156,8 @@
           <li class="itemDesc">takes voxel data from the <code>voxel</code> module and turns it into a three.js
           3D Mesh that can be displayed in a game. voxel-engine also uses this.</li></li>
       </ul>
-    <h3>Add-ons</h3>
+      <img class="essentials-image" src="wireframe-edit.gif">
+    <h3><a name="addons" class="anchor" href="#addons"><span class="mini-icon mini-icon-link"></span></a>Add-ons</h3>
       <div class="addons">
         <div class="item" style="background-image: url(thumbs/creatures.png);">
           <a class="itemTitle" href="https://github.com/substack/voxel-creature">voxel-creature</a>
@@ -145,12 +182,6 @@
         <div class="item" style="background-image: url(thumbs/simplex.png);">
           <a class="itemTitle" href="https://github.com/maxogden/voxel-simplex-terrain">voxel-simplex-terrain</a>
           <div class="itemDesc">generate voxel worlds using simplex noise (like perlin noise but newer)</div>
-        </div>
-
-        <div class="item" style="background-image: url(thumbs/server.png);">
-          <a class="itemTitle" href="https://github.com/maxogden/voxel-server">voxel-server</a>
-          <div class="itemDesc">multiplayer voxel games! note: this is still a work in progress and isn't a smooth
-          as it should be yet</div>
         </div>
 
         <div class="item" style="background-image: url(thumbs/interact.png);">
@@ -232,42 +263,140 @@
           <a class="itemTitle" href="https://github.com/incompl/voxel-heightmap-terrain">voxel-heightmap-terrain</a>
           <div class="itemDesc">generate terrain using a png heightmap</div>
         </div>
+        
+        <div class="item" style="background-image: url(thumbs/pp.png);">
+          <a class="itemTitle" href="https://github.com/hughsk/voxel-pp">voxel-pp</a>
+          <div class="itemDesc">voxel post processor. this is a wrapper for <a href="https://github.com/alteredq">@alteredq</a>'s THREE.EffectComposer, which allows you to stack fragment shaders for nice effects such as bloom, blur, mosaic filters and so on</div>
+        </div>
+        
+        <div class="item" style="background-image: url(thumbs/aabb3d.png);">
+          <a class="itemTitle" href="https://github.com/chrisdickinson/aabb-3d">aabb-3d</a>
+          <div class="itemDesc"><a href="http://en.wikipedia.org/wiki/Bounding_volume">axis aligned bounding boxes</a>. useful for building something that you intend to collide with the world or other objects</div>
+        </div>
+        
+        <div class="item" style="background-image: url(thumbs/spatial-events.png);">
+          <a class="itemTitle" href="https://github.com/chrisdickinson/spatial-events">spatial-events</a>
+          <div class="itemDesc">a spatially-aware event emitter, designed to work in 3d space with aabb-3d</div>
+        </div>
+
+        <div class="item" style="background-image: url(thumbs/spatial-trigger.png);">
+          <a class="itemTitle" href="https://github.com/chrisdickinson/spatial-trigger">spatial-trigger</a>
+          <div class="itemDesc">given a spatial event emitter (with spatial-events) and an axis aligned bounding box (with aabb-3d), creates a new event emitter that emits enter and exit events when spatial events indicate that something has passed into the bounding box</div>
+        </div>
+        
+        <div class="item" style="background-image: url(thumbs/rescue.png);">
+          <a class="itemTitle" href="https://github.com/robbles/voxel-rescue">voxel-rescue</a>
+          <div class="itemDesc">automatically teleports the player back to a known location if they enter a certain region of the world (e.g. fall off the map)</div>
+        </div>
+
+        <div class="item" style="background-image: url(thumbs/oculus.png);">
+          <a class="itemTitle" href="https://github.com/troffmo5/voxel-oculus">voxel-oculus</a>
+          <div class="itemDesc">3D side by side rendering to be used with the <a href="http://www.oculusvr.com/">Oculus Rift</a></div>
+        </div>
+        
+        <div class="item" style="background-image: url(thumbs/share.png);">
+          <a class="itemTitle" href="https://github.com/shama/voxel-share">voxel-share</a>
+          <div class="itemDesc">upload screenshots to imgur and post to twitter from inside a game</div>
+        </div>
+        
+        <div class="item" style="background-image: url(thumbs/snow.png);">
+          <a class="itemTitle" href="https://github.com/shama/voxel-snow">voxel-snow</a>
+          <div class="itemDesc">let it snow, let it snow, let it snow</div>
+        </div>
+
+        <div class="item" style="background-image: url(thumbs/colorist.png);">
+          <a class="itemTitle" href="https://github.com/hughsk/voxel-colorist">voxel-colorist</a>
+          <div class="itemDesc">a color grading module</div>
+        </div>
 
       </div>
 
     <p>The goal for all of these modules is that they are <strong>fun, simple and easy to hack</strong>.</p>
   </article>
+  
+  <article id="utilities">
+    <h2><a name="utilities" class="anchor" href="#utilities"><span class="mini-icon mini-icon-link"></span></a>Tools & Utilities</h2>
+    
+    <div class="item" style="background-image: url(thumbs/painter.png);">
+      <a class="itemTitle" href="https://github.com/maxogden/voxel-painter">voxel-painter</a>
+      <div class="itemDesc">voxel object/creature editor. (doesn't actually depend on any voxel.js modules)</div>
+    </div>
+    
+    <div class="item" style="background-image: url(thumbs/vagrant.png);">
+      <a class="itemTitle" href="https://github.com/datamineruk/voxeljs-vagrant">voxel-vagrant</a>
+      <div class="itemDesc">a <a href="http://www.vagrantup.com/">Vagrant VM</a> for building voxel games</div>
+    </div>
+    
+    <div class="item" style="background-image: url(thumbs/server.png);">
+      <a class="itemTitle" href="https://github.com/maxogden/voxel-server">voxel-server</a>
+      <div class="itemDesc">multiplayer voxel games! note: this is still a work in progress and isn't a smooth
+      as it should be yet</div>
+    </div>
+    
+    <div class="item" style="background-image: url(thumbs/minershoes.png);">
+      <a class="itemTitle" href="http://www.minershoes.com/">minershoes</a>
+      <div class="itemDesc">make your own minecraft skin. made for minecraft but works with the minecraft-skin module</div>
+    </div>
+    
+  </article>  
 
   <article id="how">
-    <h2><a name="how" class="anchor" href="#how"><span class="mini-icon mini-icon-link"></span></a>Making a simple game</h2>
+    <h2><a name="how" class="anchor" href="#how"><span class="mini-icon mini-icon-link"></span></a>Making your first game</h2>
+    <p><a target="_blank" href="http://twitter.com/maxogden">@maxogden</a> has been working on an in-browser game maker called Voxel Creator. You don't need to install anything to use it. To save your game you just need a free account from Github. You can try it out by visiting <a target="_blank" href="http://voxel-creator.jit.su">http://voxel-creator.jit.su</a>.</p>
+    <p><a target="_blank" href="http://voxel-creator.jit.su"><img src="creator.png"></a></p>
+    <p>If you encounter any issues with Voxel Creator, please open a bug report <a target="_blank" href="https://github.com/maxogden/voxel-gist/issues">over here</a> as the program is open source.</p>
+    <h2>Making a game from the command line</h2>
     <p>To use the voxel.js modules you will need to install <a href="http://nodejs.org">node.js</a> (which
       will also install npm) and be able to use your computer's command line.</p>
-    <p>Once node.js is installed, you can install the basic voxel.js npm package in your project directory, and then install a basic texture pack:</p>
+    <p>Once node.js is installed, you can install the basic voxel.js npm package in your project directory, and then install a basic texture pack. Make a file called <code>package.json</code> in your project directory and give it these contents:</p>
     <pre class="highlight">
       <code>
-$ npm install voxel-engine
-$ npm install painterly-textures
-      </code>
+{
+  "name": "mygamename",
+  "version": "0.0.1",
+  "dependencies": {
+    "voxel-engine": "0.5.3",
+    "painterly-textures": "0.0.3"
+  }
+}</code>
+    </pre>
+    <p>Now you can tell node to install your dependencies:</p>
+    <pre class="highlight">
+      <code>
+$ npm install</code>
     </pre>
     <p>Next, create <em>mygame.js</em> and put the following code in it:</p>
     <pre class="highlight">
       <code>
 var createGame = require('voxel-engine')
-var texturePath = require('painterly-textures')
+var texturePath = require('painterly-textures')(__dirname)
 var game = createGame({texturePath: texturePath})
 var container = document.body
 game.appendTo(container)
-container.addEventListener('click', function() {
-  game.requestPointerLock(container)
-})
+game.setupPointerLock(container)
 </code>
     </pre>
     <p>Then to build your game you use <a href="http://browserify.org">browserify</a>:</p>
     <pre class="highlight">
       <code>
-$ browserify mygame.js > builtgame.js</code>
+$ browserify mygame.js -o builtgame.js</code>
     </pre>
-    <p>Load builtgame.js into a web page and you're off and running! Look at one of the working examples to learn more.</p>
+    <p>Load builtgame.js into a web page:</p>
+    <pre class="highlight"><code>&lt;!doctype html&gt;
+&lt;html&gt;
+  &lt;body&gt;
+    &lt;script src=&quot;builtgame.js&quot;&gt;&lt;/script&gt;
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+    <p>For images (block textures, player skins, etc) to load correctly you need to serve voxel games from an http server (as opposed to opening the .html file in your browser directly). Here is how to do that using <a href="https://npmjs.org/package/http-server">http-server</a> from npm:</p>
+    <pre class="highlight">
+      <code>
+# install http-server and put it in your command line path
+$ npm install http-server -g
+# start a local server in the local directory
+$ http-server</code>
+    </pre>
+    <p>Now you should be able to play your game by opening up <a href="http://localhost:8080"><code>http://localhost:8080</code></a> in your browser. Look at one of the working examples to learn more.</p>
     <p>There are also API docs in the <a href="https://github.com/maxogden/voxel-engine#api">voxel-engine readme</a></p>
     <p>If you make a voxel.js module and want it featured on the site you can <a href="https://github.com/maxogden/voxeljs.com">fork the source</a> and add your module to the list.</p>
     <h3>Ideas/wishlist</h3>
